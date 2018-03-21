@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>小熊一乐/熊一乐个人博客</title>
+		<meta name="Keywords" content="小熊一乐，熊一乐">
+		<meta name="Description" content="小熊一乐·熊一乐个人博客,这个世界需要一点任性去爱你喜欢的人">
+	</head>
+	<link rel="stylesheet" type="text/css" href="css/mibear_btn2.css"/>
+	<body>
+		<div class="mibear_btn2">
+			<div class="container btn2_container">
+				
+				<!--瀑布布局-->
+				<div class="col-md-12">
+				<ol id="filters">
+			      <li ng-repeat="w_menu in water_menu"  data-filter="{{w_menu.menus}}"  ng-bind="w_menu.values" ></li>
+
+			    </ol>
+    		<br/>
+
+		    <div id="main" role="main">
+		
+		      <ul id="tiles">
+		        <li ng-repeat="w_img in water_img" data-filter-class='["{{w_img.menu1}}", "{{w_img.menu2}}", "{{w_img.menu3}}"]'>
+		          <a href=""><img ng-src="{{w_img.img_rul}}"></a>
+		          <p class="p1" ng-bind="w_img.mstitle"></p>
+		          <div class="xm_hover">
+		          		<a class="a1" href="{{w_img.a_url}}" ng-bind="w_img.mstitle" target="_blank" ></a>
+		          		<a class="a2" href="{{w_img.a_url}}" ng-bind="w_img.mstitle2" target="_blank"></a>
+						<a class="a3" href="{{w_img.a_url}}" target="_blank">查看</a>
+		          </div>
+		        </li>
+		        <!-- End of grid blocks -->
+		      </ul>
+		
+		    </div>
+		  </div>
+		  <!--第二页-->
+		  <!-- Include the imagesLoaded plug-in -->
+		  <script src="js/mibear_btn2/jquery.imagesloaded.js"></script>
+		
+		  <!-- Include the plug-in -->
+		  <script src="js/mibear_btn2/jquery.wookmark.js"></script>
+		  
+		 <script type="text/javascript">
+		 		(function ($){
+			      $('#tiles').imagesLoaded(function() {
+			        // Prepare layout options.
+			        var options = {
+			          autoResize: true, // This will auto-update the layout when the browser window is resized.
+			          container: $('#main'), // Optional, used for some extra CSS styling
+			          offset: 10, // Optional, the distance between grid items
+			          itemWidth: 280, // Optional, the width of a grid item
+			          fillEmptySpace: true // Optional, fill the bottom of each column with widths of flexible height
+			        };
+			
+			        // Get a reference to your grid items.
+			        var handler = $('#tiles li'),
+			            filters = $('#filters li');
+			
+			        // Call the layout function.
+			        handler.wookmark(options);
+			
+			        /**
+			         * When a filter is clicked, toggle it's active state and refresh.
+			         */
+			        var onClickFilter = function(event) {
+			          var item = $(event.currentTarget),
+			              activeFilters = [];
+			
+			          if (!item.hasClass('active')) {
+			            filters.removeClass('active');
+			          }
+			          item.toggleClass('active');
+			
+			          // Filter by the currently selected filter
+			          if (item.hasClass('active')) {
+			            activeFilters.push(item.data('filter'));
+			          }
+			
+			          handler.wookmarkInstance.filter(activeFilters);
+			        }
+			
+			        // Capture filter click events.
+			        filters.click(onClickFilter);
+			      });
+			    })(jQuery);
+		 </script>
+    <!-- Once the page is loaded, initalize the plug-in. -->
+  	<!--<script src="js/mibear_btn2/btn2_index.js" type="text/javascript" charset="utf-8"></script>-->
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

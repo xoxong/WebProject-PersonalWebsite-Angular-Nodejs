@@ -1,0 +1,225 @@
+{
+	"water_menu":[
+		{
+			"menus":"全部",
+			"values":"全部"
+		},{
+			"menus":"系列",
+			"values":"系列"
+		},{
+			"menus":"插件",
+			"values":"插件"
+		},{
+			"menus":"布局",
+			"values":"布局"
+		},{
+			"menus":"商城",
+			"values":"商城"
+		},{
+			"menus":"装修",
+			"values":"装修"
+		},{
+			"menus":"fashion",
+			"values":"Fashion"
+		},{
+			"menus":"video",
+			"values":"Video"
+		},{
+			"menus":"art",
+			"values":"Art"
+		}
+		,{
+			"menus":"add",
+			"values":"add"
+		}
+	],
+	"water_img":[
+		{
+			"menu1":"全部",
+			"menu2":"系列",
+			"img_rul":"img/mibear_bt2/1024_1.jpg",
+			"a_url":"http://www.1024books.com/",
+			"mstitle":"1024小书柜",
+			"mstitle2":"我们为Kinlde打造的网上书籍社区,致力于Kindle电子书经典推荐阅读"
+		},{
+			"menu1":"全部",
+			"menu2":"系列",
+			"img_rul":"img/mibear_bt2/1024_2.jpg",
+			"a_url":"http://www.1024books.com/",
+			"mstitle":"1024小书柜阅读",
+			"mstitle2":"在这个自媒体的时代，我们需要时刻知道这个世界发生了什么"
+		},{
+			"menu1":"全部",
+			"menu2":"系列",
+			"menu3":"商城",
+			"img_rul":"img/mibear_bt2/sMall_1.jpg",
+			"a_url":"www/Shopping_Mall_1.html",
+			"mstitle":"商城项目",
+			"mstitle2":"商城项目，简单大气的商城模板，气质崇尚，高雅有品位，很好的选择"
+		},{
+			"menu1":"全部",
+			"menu2":"系列",
+			"menu3":"装修",
+			"img_rul":"img/mibear_bt2/xm_amountRoom.jpg",
+			"a_url":"www/xm_amountRoom.html",
+			"mstitle":"装修量房",
+			"mstitle2":"装修模板，装修量房页面表单模板"
+		},{
+			"menu1":"全部",
+			"menu2":"系列",
+			"menu3":"装修",
+			"img_rul":"img/mibear_bt2/amRoomDesign.jpg",
+			"a_url":"www/xm_amRoomDesign.html",
+			"mstitle":"装修量房",
+			"mstitle2":"装修模板，装修量房页面表单模板"
+		},{
+			"menu1":"全部",
+			"menu2":"系列",
+			"menu3":"装修",
+			"img_rul":"img/mibear_bt2/ny_DecorationStage.jpg",
+			"a_url":"www/ny_DecorationStage.html",
+			"mstitle":"装修量房",
+			"mstitle2":"装修模板，装修分期贷款,免费量房，免费设计"
+		},{
+			"menu1":"全部",
+			"menu2":"插件",
+			"img_rul":"img/mibear_bt2/banner_Highlights.jpg",
+			"a_url":"www/banner_Highlights/xm_Summary_banner.html",
+			"mstitle":"banner汇总-xm",
+			"mstitle2":"banner汇总-xm 3D 手风琴 等多样有趣的设计"
+		},{
+			"menu1":"全部",
+			"menu2":"插件",
+			"img_rul":"img/mibear_bt2/hover_Highlights.jpg",
+			"a_url":"www/hover_Highlights/xm_Summary_hover.html",
+			"mstitle":"hover汇总-xm",
+			"mstitle2":"hover汇总-xm 3D 炫酷hover鼠标悬停样式"
+		},{
+			"menu1":"全部",
+			"menu2":"布局",
+			"img_rul":"img/mibear_bt2/cool_web.jpg",
+			"a_url":"www/Cool_Web_1.html",
+			"mstitle":"样式DIV布局",
+			"mstitle2":"样式DIV布局"
+		}
+		
+
+	],
+    "youqing": [
+        {
+            "name": "1024小书柜",
+            "urls": "http://www.1024books.com/"
+        }, {
+            "name": "熊一乐",
+            "urls": "http://mibear.cc/"
+        }, {
+            "name": "小熊一乐",
+            "urls": "http://mibear.cc/"
+        }, {
+            "name": "个人博客",
+            "urls": "http://###"
+        }, {
+            "name": "小熊资讯",
+            "urls": "http://###"
+        },{
+            "name": "小熊阅读",
+            "urls": "http://###"
+        }
+
+    ],
+    "webjishu": [
+        {
+            "name": "boostrap",
+            "urls": "http://###"
+        }, {
+            "name": "Aangularjs",
+            "urls": "http://###"
+        }, {
+            "name": "vue.js",
+            "urls": "http://###"
+        }, {
+            "name": "sea.js",
+            "urls": "http://###"
+        }, {
+            "name": "Ajax",
+            "urls": "http://###"
+        },{
+            "name": "reart.js",
+            "urls": "http://###"
+        },{
+            "name": "jQurey",
+            "urls": "http://###"
+        }
+
+    ],
+    "lis":[
+    	{
+    		"title":"1024小书柜",
+    		"xtitle":"web",
+    		"img1":"img/img-1.jpg",
+    		"img2":"img/img-2.jpg",
+    		"mstitle1":"Description lists",
+    		"msmain1":"A description list is perfect for defining terms.",
+    		"mstitle2":"Euismod",
+    		"msmain2":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle3":"Euismod",
+    		"msmain3":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle4":"Malesuada porta",
+    		"msmain4":"Etiam porta sem malesuada magna mollis euismod.",
+    		"mstitle5":"Felis euismod semper eget lacinia",
+    		"msmain5":"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+    		"times":"2017.7.1"
+    	},
+    	{
+    		"title":"金符教育",
+    		"xtitle":"web",
+    		"img1":"img/img-3.jpg",
+    		"img2":"img/img-4.jpg",
+    		"mstitle1":"Description lists",
+    		"msmain1":"A description list is perfect for defining terms.",
+    		"mstitle2":"Euismod",
+    		"msmain2":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle3":"Euismod",
+    		"msmain3":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle4":"Malesuada porta",
+    		"msmain4":"Etiam porta sem malesuada magna mollis euismod.",
+    		"mstitle5":"Felis euismod semper eget lacinia",
+    		"msmain5":"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+    		"times":"2017.7.1"
+    	},
+    	{
+    		"title":"seo搜外",
+    		"xtitle":"web",
+    		"img1":"img/img-5.jpg",
+    		"img2":"img/img-1.jpg",
+    		"mstitle1":"Description lists",
+    		"msmain1":"A description list is perfect for defining terms.",
+    		"mstitle2":"Euismod",
+    		"msmain2":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle3":"Euismod",
+    		"msmain3":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle4":"Malesuada porta",
+    		"msmain4":"Etiam porta sem malesuada magna mollis euismod.",
+    		"mstitle5":"Felis euismod semper eget lacinia",
+    		"msmain5":"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+    		"times":"2017.7.1"
+    	},
+    	{
+    		"title":"荣平职高",
+    		"xtitle":"web",
+    		"img1":"img/img-2.jpg",
+    		"img2":"img/img-5.jpg",
+    		"mstitle1":"Description lists",
+    		"msmain1":"A description list is perfect for defining terms.",
+    		"mstitle2":"Euismod",
+    		"msmain2":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle3":"Euismod",
+    		"msmain3":"Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.Donec id elit non mi porta gravida at eget metus.",
+    		"mstitle4":"Malesuada porta",
+    		"msmain4":"Etiam porta sem malesuada magna mollis euismod.",
+    		"mstitle5":"Felis euismod semper eget lacinia",
+    		"msmain5":"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.",
+    		"times":"2017.7.1"
+    	}
+    ]
+}

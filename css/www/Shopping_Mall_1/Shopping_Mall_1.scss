@@ -1,0 +1,453 @@
+a,button,select,input{
+    outline: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+//1500 
+//设计图的宽度
+$sj_width: 1520px;
+
+@media (min-width: 320px) {
+    html {
+        font-size:100px*(320px/$sj_width) ;  
+    }
+}
+@media (min-width: 360px) {
+    html {
+        font-size: 100px*(360px/$sj_width) ;
+    }
+}
+@media (min-width: 375px) {
+    html {
+        font-size: 100px*(375px/$sj_width) ;
+    }
+}
+@media (min-width: 414px) {
+    html {
+        font-size: 100px*(414px/$sj_width) ;
+    }
+}
+@media (min-width: 765px) {
+    html {
+        font-size: 100px*(765px/$sj_width) ;
+    }
+}
+@media (min-width: 800px) {
+    html {
+        font-size: 100px*(800px/$sj_width) ;
+    }
+}
+@media (min-width: 1020px) {
+    html {
+        font-size: 100px*(1020px/$sj_width) ;
+    }
+}
+
+@media (min-width: 1280px) {
+    html {
+        font-size: 100px*(1280px/$sj_width) ;
+    }
+}
+@media (min-width: 1360px) {
+    html {
+        font-size: 100px*(1360px/$sj_width) ;
+    }
+}
+@media (min-width: 1440px) {
+    html {
+        font-size: 100px*(1440px/$sj_width) ;
+    }
+}
+@media (min-width: 1600px) {
+    html {
+        font-size: 100px*(1600px/$sj_width) ;
+    }
+}
+@media (min-width: 1920px) {
+    html {
+        font-size: 100px*(1920px/$sj_width) ;
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+//商城模板
+.s_m_1{
+    width: 15rem;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    .header_box{
+        width: 100%;
+        height: 7.2rem;
+        background: url(../../../img/www/Shopping_Mall_1/header11.jpg) no-repeat;
+        background-size: 100% 7.2rem;  
+        float: left;
+        .top{
+            width: 100%;
+            height: 0.9rem;
+            background: rgba(36,42,48,0.8);
+            border-bottom: 2px solid #5f686d;
+            ul{
+               width: 8.85rem;
+               height: 100%;
+               float: left;
+               margin-left: 2.05rem; 
+               li{
+                   list-style-type: none;
+                   text-align: center;
+                   line-height:0.9rem;
+                   width:1.47rem ;
+                   height: 100%;
+                   float: left;
+                   font-size: 0.18rem;
+                   color: white;
+               }
+               span{
+                   color:#eb5367 ;
+               }
+            }
+        }
+        .bottom{
+            width: 100%;
+            height: 7.2-0.9rem;
+            float: left;
+            background: rgba(36,42,48,0.7);
+            position: relative;
+            .main_box{
+                width: 5.29rem;
+                height: 4.10rem;
+                position: absolute;
+                top: 1.59rem;
+                left: 4.88rem;
+                .img_1{
+                margin: 0 auto;
+                width: 0.54rem;
+                height: auto;
+                position: absolute;
+                top: 0px;
+                left: 45%;
+                }
+                a:nth-of-type(1){
+                    color: white;
+                    font-size: 0.3rem;
+                    font-weight: bold;
+                    text-align: center;
+                    width: 100%;
+                    float: left;
+                    height: auto;
+                    margin-top: 0.84rem;
+                    
+                }
+                 a:nth-of-type(2){
+                    color: white;
+                    font-size: 0.18rem;
+                    text-align: center;
+                    width: 100%;
+                    float: left;
+                    height: auto;
+                    margin-top: 0.54rem;
+                    
+                }
+                 a:nth-of-type(3){
+                    color: white;
+                    font-size: 0.19rem;
+                    text-align: center;
+                    width:1.95rem ;
+                    float: left;
+                    height: 0.58rem;
+                    line-height:0.58rem ;
+                    background-color: #eb5367;
+                    border-radius: 10px;
+                    margin-top: 0.54rem;
+                    margin-left: 1.65rem;
+                    
+                }
+            }
+            
+        }
+    }
+    //modular_1 电脑
+    .modular_1{
+        width: 100%;
+        height: auto;
+        float: left;
+        padding-top: 1.03rem;
+        background: url(../../../img/diwen1.png);
+        a:nth-of-type(1){
+            color: #6d7b8a;
+            width: 100%;
+            height: auto;
+            float: left;
+            text-align: center;
+            font-size: 0.4rem;
+//          font-weight: bold;
+            span{
+                color: #eb5367;
+            font-weight: bold;
+                
+            }
+        }
+          a:nth-of-type(2){
+               color: #6d7b8a;
+            width: 100%;
+            height: auto;
+            float: left;
+            text-align: center;
+            font-size: 0.18rem;
+          }
+          .img_box{
+              width:9.24rem;
+              height: auto;
+              float: left;
+              margin: 0.4rem 2.91rem;
+              position: relative;
+              background: url(../../../img/diwen1.png);
+              .img_bg{
+                  width: 100%;
+                  height: auto;
+              }
+              .img_1{
+                  width: 7.10rem;
+                  height: 4.48rem;
+                  position: absolute;
+                  top: 0.25rem;
+                  left: 1.08rem;
+              }
+          }
+    }
+    .modular_2{
+        width: 100%;
+        height: auto;
+        float: left;
+        background: url(../../../img/diwen1.png);
+        padding-bottom: 100px;
+        .a1{
+            color: #6d7b8a;
+            width: 100%;
+            height: auto;
+            float: left;
+            text-align: center;
+            font-size: 0.4rem;
+//          font-weight: bold;
+            span{
+                color: #eb5367;
+            font-weight: bold;
+                
+            }
+        }
+          .a2{
+               color: #6d7b8a;
+            width: 100%;
+            height: auto;
+            float: left;
+            text-align: center;
+            font-size: 0.18rem;
+          }
+          .menus{
+          width: 5.6rem;
+          height: auto;
+          float: left;
+          padding-top: 0.39rem;
+          margin-left: 5rem;
+          margin-bottom: 0.42rem;
+          a{
+              text-align: center;
+              width: auto;
+              padding: 0 0.14rem;
+              float: left;
+              height: 0.39rem;
+              line-height: 0.39rem;
+              border: 1px solid #eceef0;
+              border-radius: 0.2rem;
+              background-color: white;
+              font-size: 0.18rem;
+              margin-right: 0.29rem;
+              color: #9da1a9;
+              span{
+                  width: 0.11rem;
+                  height: 0.11rem;
+                  border-radius: 0.11rem;
+                  background-color: #eceef0;
+                  float: left;
+                  margin: 0.14rem 0.10rem 0 0 ;
+              }
+          }
+          a:hover{
+              color: white;
+              background-color: #ff6c7b;
+          }
+           a:hover span{
+              background-color:white;
+          }
+          a:first-child{
+              color: white;
+              background-color: #ff6c7b;
+          }
+           a:first-child span{
+              background-color:white;
+          }
+          
+      }
+      .imgText{
+          width: 10.63rem;
+          height: auto;
+          float: left;
+          margin-left: 2.18rem;
+          li{
+              width: 3.36rem;
+              height: 3.75rem;
+              float: left;
+              margin-right: 0.1rem;
+              margin-bottom: 0.1rem;
+              border: 1px solid #e0e2e4;
+              background-color: white;
+              img{
+                  width: 3.14rem;
+                  height: 2.36rem;
+                  float: left;
+                  margin: 0.12rem;
+              }
+              a:nth-of-type(1){
+                  font-size: 0.3rem;
+                  display: block;
+                  color: #6d7b8a;
+                  margin: 0rem 0 0.19rem 0.31rem;
+              }
+               a:nth-of-type(2){
+                  font-size: 0.18rem;
+                  float: left;
+                  color: #6d7b8a;
+                  margin: 0rem 0 0.19rem 0.31rem;
+              }
+              a{
+                  span{
+                       width: 0.16rem;
+                       height: 0.14rem;
+                       display: block;
+                       float: right;
+                       margin-left: 0.15rem;
+                       margin-top: 0.05rem;
+                  }
+                  .span1{
+                      background-color: #f18694;
+                  }
+                    .span2{
+                      background-color: #f9cf7a;
+                  }
+                    .span3{
+                      background-color: #8dbaf2;
+                  }
+                    .span4{
+                      background-color: #7fddc5;
+                  }
+              }
+          }
+          .a_btn_1{
+                width: 2.10rem;
+                height: 0.59rem;
+                background-color: #ff7180;
+                color: white;
+                font-size: 0.24rem;
+                text-align: center;
+                line-height: 0.59rem;
+                margin-right: 0.29rem;
+                float: left;
+                border-radius: 0.2rem;
+                margin-left: 3.08rem;
+                margin-top: 0.32rem;
+          }
+          .a_btn_2{
+                width: 2.10rem;
+                height: 0.59rem;
+                background-color: #6ecdb7;
+                color: white;
+                font-size: 0.24rem;
+                text-align: center;
+                line-height: 0.59rem;
+                margin-right: 0.29rem;
+                float: left;
+                border-radius: 0.2rem;
+                margin-top: 0.32rem;
+                
+          }
+       }
+      }
+      //modular_3
+      .modular_3{
+          width: 10.61rem;
+          height: 3.29rem;
+          float: left;
+          margin-left: 2.18rem;
+          background: url(../../../img/www/Shopping_Mall_1/banner_1.png);
+          background-size: 10.61rem 3.29rem;
+          .modular_3_box{
+              width: 100%;
+              height: 100%;
+              background-color: rgba(44,62,80,0.7);
+              .a1{
+                  width: 100%;
+                  height: auto;
+                  float: left;
+                  text-align: center;
+                  color: white;
+                  font-size: 0.24rem;
+                  margin-top: 0.76rem;
+              }
+              .search_box{
+                  width: 5.27rem;
+                  height: 0.54rem;
+                  margin-left: 2.65rem;
+                  margin-top: 0.22rem;
+                  border: 5px solid rgba(0,0,0,0.2);
+                  border-radius: 10px;
+                  float: left;
+                  .inp1{
+                      width: 3.92-0.19rem;
+                      height: 100%;
+                      float: left;
+                      background-color: #dadada;
+                      padding-left: 0.19rem;
+                      border: 0;
+                     font-size: 0.18rem;
+                  }
+                  .inp2{
+                      float: right;
+                      width: 5.27-3.92rem;
+                      height: 100%;
+                      font-size: 0.18rem;
+                      text-align: center;
+                      background-color: #3498db;
+                      border: 0;
+                      color: white;
+                  }
+                  .img1{
+                      margin-left: 1.38rem;
+                  }
+              }
+                 
+          }
+          
+      }
+      //modular_3 ned
+      
+      //mdular_4
+      .modular_4{
+          width: 1063rem;
+          height: auto;
+          margin-left: 2.16rem;
+          float: left;
+          margin-top: 0.87rem;
+      }
+    
+}

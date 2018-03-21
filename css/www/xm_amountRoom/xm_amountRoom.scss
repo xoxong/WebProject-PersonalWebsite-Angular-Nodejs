@@ -1,0 +1,306 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    color: #333333;
+    text-decoration: none;
+}
+
+body{
+    margin: 0 auto;
+    font-family: "微软雅黑";
+}
+.main_box{
+    width:1903px;
+    height:auto;
+    margin: 0 auto;
+    //模块一
+    .modular_1{
+        width: 1903px;
+        height: 480px;
+        margin: 0 auto;
+            img{
+              width: 100%;
+              height: 100%;
+            }
+    }
+    
+    .null_1{
+        width: 100%;
+        height: 88px;
+    }
+    //模块2
+    .modular_2{
+        width: 1249px;
+        height: auto;
+        margin: 0 auto;
+        .title{
+            width: 100%;
+            height: 69px;
+            text-align: center;
+            a{
+                width: 100%;
+                font-size: 40px;
+                margin-bottom: 27px;
+                float: left;
+            }
+            span{
+                width: 74px;
+                height: 4px;
+                display: block;
+                margin-left: 47%;
+                float: left;
+                background-color: #fccd00;
+
+            }
+        }
+        .null_2{
+            width: 100%;
+            height: 90px;
+        }
+        .left_box{
+            width: 500px;
+            height: 370px;
+            float: left;
+            .title1{
+                width: 100%;
+                height: auto;
+                float: left;
+                text-align: center;
+                font-size: 30px;
+                margin-top: 10px;
+             }
+            .title2{
+                width: 100%;
+                height: auto;
+                font-size: 12px;
+                margin-top: 18px;
+                margin-bottom: 59px;
+                float: left;
+                text-align: center;
+            }
+            .form_box{
+                width:500px;
+                height:auto;
+                float: left;
+                form{
+                    input{
+                        height: 48px;
+                        color: #333333;
+                        border: 1px solid #a9a9a9; 
+                        padding-left: 20px;
+                        outline: none;
+                        font-size: 16px;
+                        font-family: "宋体";
+                        font-weight: bold;
+                    }
+                    .input1,.input2{
+                        width: 217px;
+                        float: left;
+                    }
+                    .input1{
+                        margin-right: 20px;
+                    }
+                    .input3{
+                        width: 477px;
+                        float: left;
+                        margin-top: 20px;
+                        margin-bottom: 46px;
+                    }
+                    .button{
+                        width: 150px;
+                        height: 40px;
+                        float: left;
+                        text-align: center;
+                        line-height: 42px;
+                        font-size: 20px;
+                        color: white;
+                        background-color: #fccd00;
+                        border: 0px;
+                        padding: 0px !important;
+                        margin-left:175px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+            .right_img{
+                width:749-114px;
+                height:370px;
+                background: url(../../../img/www/xm_amountRoom/ar_2.jpg) no-repeat;
+                float: right;
+            }
+        }
+        .null_3{
+            width: 100%;
+            height: 124px;
+            float: left;
+        }
+        //模块三
+        .modular_3{
+            width: 100%;
+            height: 551px;
+            background: url(../../../img/www/xm_amountRoom/ar_21.png) no-repeat;
+            float: left;
+            //占位
+             .null_31{
+                 width: 327px;
+                 height: 100%;
+                 float: right;
+             }
+             //内容 
+             .main_box{
+                width: 670+39px;
+                height: 551px;
+                float: right;
+                .null_32{
+                    width: 100%;
+                    height: 97px;
+                    float: left;
+                }
+                .title{
+                    width: 670px;
+                    height: auto;
+                    text-align: center;
+                    float: left;
+                    margin-bottom: 42px;
+                    margin-left: -22px;
+                    a{
+                        width: 100%;
+                        font-size: 30px;
+                        margin-bottom: 20px;
+                        float: left;
+                    }
+                    span{
+                        width: 74px;
+                        height: 4px;
+                        display: block;
+                        margin-left: 47%;
+                        float: left;
+                        background-color: #fccd00;
+        
+                    }
+                }
+                .circular_box{
+                    width: 100%;
+                    height: 208px;
+                    float: left;
+                    .circular_1{
+                        width: 186px;
+                        height: 100%;
+                        text-align: center;
+                        float: left;
+                        img{
+                            display: block;
+                            margin-left: 25px;
+                            width: 134px;
+                        }
+                        a{
+                            display: block;
+                            margin-top: 14px;
+                            font-size: 17px;
+                        }
+                    }
+                    .circular_3{
+                        width: 225px;
+                        img{
+                            margin-left: 36px;
+                        }
+                    }
+                    .triangle{
+                        float: left;
+                        width: 52px;
+                        height: 80px;
+                        position: relative;
+                        img{
+                            position: absolute;
+                            right: 0px;
+                            bottom: 0px;
+                            margin-right: 16px;
+                        }
+                    }
+                }
+             }
+        }
+        .null_4{
+            width: 100%;
+            height: 113px;
+            float: left;
+        }
+        //模块四
+         .modular_4{
+             width: 100%;
+             height: auto;
+             float: left;
+             .main_box{
+                 width: 1410px;
+                 height:auto;
+                 margin-left: 951-705px;
+                 .title{
+                width: 100%;
+                height: 69px;
+                text-align: center;
+                
+                a{
+                    width: 100%;
+                    font-size: 40px;
+                    margin-bottom: 27px;
+                    float: left;
+                }
+                span{
+                    width: 74px;
+                    height: 4px;
+                    display: block;
+                    margin-left: 47%;
+                    float: left;
+                    background-color: #fccd00;
+    
+                }
+            }
+         .null_5{
+             width: 100%;
+             height: 90px;
+             float: left;
+         }
+         //新闻
+             .news{
+                width: 100%;
+                height: 202px;
+                float: left;
+                margin-bottom: 30px;
+                img{
+                    width: 300px;
+                    height: 200px;
+                    float: left;
+                }
+                .texts{
+                    width: 1410-380px;
+                    height: 200px;
+                    margin-left: 80px;
+                    float: left;
+                    a{
+                        width: 100%;
+                        display: block;
+                    }
+                    .a1{
+                        font-size: 30px;
+                        margin-bottom: 29px;
+                    }
+                    .a2{
+                        font-size: 17px;
+                        color: black;
+                        line-height: 30px;
+                    }
+                }
+            }
+        .null_6{
+             width: 100%;
+             height: 117px;
+             float: left;
+         }                                       
+         }
+    }
+   
+}
+
